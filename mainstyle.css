@@ -1,0 +1,27 @@
+.brd {
+    width: 350px;
+    height: 150px;
+    oaverflow-y: auto;
+}
+
+img{
+   display:block;
+   margin: auto;
+   height: auto;
+}
+.brd a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.brd a:hover {
+    background-color: #ccc;
+}
+
+.brd a.active {
+    background-color: #4CAF50;
+    color: white;
+    }

@@ -1,0 +1,42 @@
+-- ---
+-- Globals
+-- ---
+
+-- SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+-- SET FOREIGN_KEY_CHECKS=0;
+
+-- ---
+-- Table 'databse'
+-- 
+-- ---
+
+DROP TABLE IF EXISTS `databse`;
+		
+CREATE TABLE `databse` (
+  `id` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `GIG NO` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `Refrence/Part No.` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `Description` MEDIUMTEXT NULL AUTO_INCREMENT DEFAULT NULL,
+  `Serial No. of tester/panel meter/gauge` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `Cal done by(13BRD/MATCAL)` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  `Cal Due` INTEGER NULL AUTO_INCREMENT DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+-- ---
+-- Foreign Keys 
+-- ---
+
+
+-- ---
+-- Table Properties
+-- ---
+
+-- ALTER TABLE `databse` ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- ---
+-- Test Data
+-- ---
+
+-- INSERT INTO `databse` (`id`,`GIG NO`,`Refrence/Part No.`,`Description`,`Serial No. of tester/panel meter/gauge`,`Cal done by(13BRD/MATCAL)`,`Cal Due`) VALUES
+-- ('','','','','','','');
